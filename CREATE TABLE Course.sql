@@ -1,4 +1,3 @@
--- Step 1: Create the Course table
 CREATE TABLE Course (
     ccode CHAR(5) PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
@@ -9,7 +8,7 @@ CREATE TABLE Course (
     
 );
 
--- Step 2: Load data into the Course table
+
 LOAD DATA LOCAL INFILE '/home/niuniu/Documents/DatabaseAssignment2/course.csv'
 INTO TABLE Course
 FIELDS TERMINATED BY ','

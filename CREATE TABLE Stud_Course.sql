@@ -1,6 +1,7 @@
 CREATE TABLE Stud_Course (
     spid CHAR(3),
     ccode CHAR(5),
+    grade_num INT,
     grade ENUM('A', 'B', 'C', 'D', 'F') NOT NULL,
     PRIMARY KEY (spid, ccode),
     FOREIGN KEY (spid) REFERENCES Student(spid),
@@ -16,6 +17,7 @@ IGNORE 1 LINES
 (spid, ccode, @grade_num)
 SET 
     spid = LPAD(CAST(spid AS CHAR), 3, '0'),
+    grade_num = @grade_num,
     grade = 
         CASE 
             WHEN @grade_num >= 75 THEN 'A'
