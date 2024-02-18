@@ -246,22 +246,31 @@ CREATE TABLE Alumni_students  (
 ```
 ## Create the following queries in SQL
 1. Howmanycoursesdoeseachdepartmentgives?Includedepartments(if any) that does not give any courses
+![image1](https://github.com/niuniu268/Database2/blob/master/imgs/Screenshot%202024-02-17%20at%2011.45.56.png?raw=true)
 2. Listtheteachersthatdoesnotteachthissemester
+![image2](https://github.com/niuniu268/Database2/blob/master/imgs/Screenshot%202024-02-17%20at%2012.18.27.png?raw=true)
 3. Listthemembersinthecommittee"CoursePlanning"(name,
 department)
+![image3](https://github.com/niuniu268/Database2/blob/master/imgs/Screenshot%202024-02-17%20at%2012.41.04.png?raw=true)
 4. Listtheteachersthatareresponsibleformorethantwocourses
+![image4](https://github.com/niuniu268/Database2/blob/master/imgs/Screenshot%202024-02-17%20at%2012.53.51.png?raw=true)
 5. Listtheteachersthatcanteachthecourse"LinearAlgebra"
+![image5](https://github.com/niuniu268/Database2/blob/master/imgs/Screenshot%202024-02-17%20at%2012.55.38.png?raw=true)
 6. List,foreachstudent,thenumberofcoursethestudenttakes.
+![image6](https://github.com/niuniu268/Database2/blob/master/imgs/Screenshot%202024-02-17%20at%2012.57.31.png?raw=true)
 7. ListforeachcourseinComputerSciencethathasmorethanfour
 students: the name of the course, the highest grade, the lowest grade,
 and the average grade on the course.
+![image7](https://github.com/niuniu268/Database2/blob/master/imgs/Screenshot%202024-02-17%20at%2014.07.49.png?raw=true)
 8. Listnameand(numeric)gradeforthestudentsonthecourse"CS
 Introduction" that have received the grade 'C'.
+![image8](https://github.com/niuniu268/Database2/blob/master/imgs/Screenshot%202024-02-17%20at%2014.10.42.png?raw=true)
 9. ListforeachcourseinMathematics:thenameofthecourse,the
 number of students and the teacher that does teach the course
+![image9](https://github.com/niuniu268/Database2/blob/master/imgs/Screenshot%202024-02-17%20at%2014.47.39.png?raw=true)
 10. List for each student that has failed a course: the student’s name, the
 name of the course and the grade
-
+![image10](https://github.com/niuniu268/Database2/blob/master/imgs/Screenshot%202024-02-17%20at%2015.08.32.png?raw=true)
 ## Create the following triggers in SQL
 - A trigger for UPDATE of the field grade: if the new value > 100 an error message should be printed
 
