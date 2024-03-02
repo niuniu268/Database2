@@ -2,6 +2,8 @@
 
 ## Introduction
 
+![image](https://github.com/niuniu268/Database2/blob/master/imgs/canvas.png?raw=true)
+
 According to the requirements and E-R diagram, we need to generate several tables in the database. The database consists of the following tables: faculty, department, teacher, course, student, committee, grade, can_teach, stud_course, and teach_comm. In the grade table, the letter grade is the primary key. Compared with the grade table, the teacher table plays an important role in this study. The attribute tpid is the primary key of the teacher table. The attributes rank and dept should be enumerated to avoid inputting incorrect values. Apart from tpid, the dept attribute is a foreign key associated with the department table. One tuple in the department table is associated with many tuples in the teacher table. The department table is associated with the faculty table by the attribute fcode. It is also clear that one tuple in the faculty table can match many tuples in the department table. The teacher table connects to the committee table through the teach_comm table. The teacher table is also associated with the course table through the can_teach table. In addition to the connection via can_teach, the course table is also connected to the teacher table through the does_teach and responsibility attributes. Finally, the course table also has a relation with the student table via the betyg attribute. After generating these tables, I will proceed to create the following queries.
 
 ## Edit the design of your tables
